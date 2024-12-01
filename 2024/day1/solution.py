@@ -21,9 +21,7 @@ for i in range(len(left)):
 print(difference)
 
 #Problem 2
-
 similarity = 0
-
 for i in range(len(left)):
     similarity += int(left[i]) * right.count(left[i])
 print(similarity)
