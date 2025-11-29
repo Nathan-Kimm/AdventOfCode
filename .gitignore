@@ -1,1 +1,9 @@
 input.txt
+
+debug/
+target/
+
+**/*.rs.bk
+**/mutants.out*/
+
+/target
