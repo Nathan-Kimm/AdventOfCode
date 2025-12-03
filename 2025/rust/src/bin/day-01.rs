@@ -2,7 +2,7 @@ use std::fs::read_to_string;
 
 fn main() {
     println!("Part 1!");
-    let input = read_to_string("input.txt").expect("error");
+    let input = read_to_string("../../inputs/day-01.txt").expect("error");
     println!("Output: {}", part1(&input));
 
     println!("Part 2!");
