@@ -24,7 +24,7 @@ fn part1(input: &str) -> i32 {
             count += 1;
         }
     }
-    return count;
+    count
 }
 
 fn part2(input: &str) -> i32 {
@@ -41,7 +41,7 @@ fn part2(input: &str) -> i32 {
             }
         }
     }
-    return count;
+    count
 }
 
 #[cfg(test)]
